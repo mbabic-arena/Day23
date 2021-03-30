@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class Plant extends React.Component {
+class Plant extends Component {
   constructor(props) {
     super(props);
     this.state = { type: "Flowering plant" };
